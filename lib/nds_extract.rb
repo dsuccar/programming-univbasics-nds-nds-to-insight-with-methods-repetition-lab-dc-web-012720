@@ -30,12 +30,10 @@ name_index=0
 directors_answer =[]
 while name_index<source.length do
   directors_answer << source[name_index][:name]
-binding.pry
 name_index += 1
 
 end
 directors_answer
-
   # Write this implementation
 end
 
@@ -44,6 +42,7 @@ def total_gross(source)
   dir_names = list_of_directors(source)
   i=0
   answer=0
+  binding.pry
 
   while i<dir_names.length do
     dir_name=dir_names[i]
